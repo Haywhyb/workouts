@@ -1,0 +1,299 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#maincontainer{
+    width:100%;
+    height: 500px;
+    background-image: url("images/gym.jpg");
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.99);
+}
+
+    
+}
+#training{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    margin-left: 90px;
+}
+#container{
+    height: 80px;
+    background-color:rgba(0, 0, 0, 0.44);
+    display: flex;
+    padding-top: 20px ;
+    position: fixed;
+    width: 100%;
+}
+#menu{
+    float: right;
+    text-decoration: none;
+    padding-left: 150px;
+ 
+
+}
+#menu a{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;  
+    color: white;
+}
+#menu a:hover{
+    transition: ease-out 1s;
+    /* border-bottom:  red 1px; */
+    color: red;
+}
+button{
+    background-color: red;
+    height: 40px;
+    width: 70px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    transition: ease-out 1s;
+    color: red;
+
+}
+#word{
+  text-align: center;  
+  padding-top: 200px;
+  color: red;
+
+}
+#btn{
+    width: 150px; 
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+#word h3{
+    font-family: cursive;
+    color: white;
+}
+#word h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    color: white;
+}
+#choose-program{
+    text-align: center;
+    margin-top: 200px;
+   
+}
+/* #choose-program{
+    text-align: center;
+} */
+#gym1{
+    display: flex;
+    margin: 40px 150px;
+
+}
+#dumbell1{
+    margin: 0px 0px;
+    margin-left: 30px;
+    padding-bottom: 20px ;
+}
+#dumbell1 strong{
+    padding-bottom: 20px;
+}
+#gym2{
+    display: flex;
+    margin: 40px 150px;
+}
+#gym3{
+    display: flex;
+    margin: 40px 150px;
+
+}
+#gymimage{
+    text-align: center;
+    padding:10px 10px;
+    background-color: rgba(0, 0, 0, 0.90);
+    background-image: url("images/gyms.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 100px;
+   
+}
+#gymimage h1{
+   padding-top: 100px;
+}
+#gymimage button{
+    margin-top: 20px;
+    width: 150px;
+}
+#biggym{
+    display: flex;
+    margin-top: 30px;
+}
+#our-classes{
+    text-align: center;
+    margin-top: 40px;
+}
+#containercover{
+    display: flex;
+}
+#imgym{
+    float: right;
+    
+}
+#smdumbell{
+    margin-right: 400px;
+}
+#containercover{
+    margin-top: 40px;
+}
+.smdumbell1{
+    /* width: 200px; */
+   
+    margin-left: 150px;
+    /* padding: 200px; */
+    height: 90px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: seashell ;
+    background-color: whitesmoke;
+    border: 0.10px rgba(0, 0, 0, 0.20)
+}
+.smdumbell1 h3{
+
+
+}
+#imgym{
+  
+    margin-left: 60px;
+}
+#gymimgholder{
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
+}
+#gymimgholder p{
+    color: grey;
+}
+.btnbell{
+    width: 200px;
+}
+#smdumb button{
+    width: 250px;
+    text-align: center;
+    color: white;
+    margin-left: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+
+}
+#imgym h3{
+    padding-top: 30px;
+}
+#imgym p{
+    padding-top: 30px;
+}
+#imgym button{
+    margin-top: 20px ;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+}
+#smdumb h3:hover{
+    cursor: pointer;   
+}
+#standbabes{
+
+    background-color: rgba(0, 0, 0, 0.90);
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    /* z-index: 2; */
+}
+#standing{
+    background: url("images/imgstnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+   
+
+}
+#schedule{
+    text-align: center;
+    margin-top: 100px;
+    /* z-index: 2; */
+
+}
+#schedule h1{
+    padding-top: 100px;
+}
+#schedule p{
+    padding-top: 40px;
+    color: white;
+}
+
+#timetable{
+    color: white;
+    margin-left: 180px;
+}
+#tday:hover{
+    color: red;
+    cursor: pointer;
+}
+#wday:hover{
+    color: red;
+    cursor: pointer;
+}
+#thday:hover{
+    color: red;
+    cursor: pointer;
+}
+#fday:hover{
+    color: red;
+    cursor: pointer;
+}
+#timetable td{
+    padding-left: 50px;
+    border: solid 1px white;
+    height: 100px;
+    width: 200px;
+}
+#expert{
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#imgdetails{
+    display: flex;
+    
+    margin-top: 100px;
+   
+   
+  
+    /* margin-left: 50px; */
+
+}
+#img1, #img2, #img3{
+    margin: auto;
+    padding-left: 80px;
+}
+#img1:hover{
+    transition: ease 1ms ;
+    color: rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    color: tomato;
+    border: solid 1px blue;
+}
+#details1,#details2{
+    text-align: center;
+}
+#details3 h3{
+    text-align: center;
+    padding-right: 80px;
+}

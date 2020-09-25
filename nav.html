@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* h1{
+        font-size: 200px;
+        text-align: center;
+        color: red;
+    }
+    @media(max-width:900px){
+    h1{
+        font-size:100px;
+        color: blue;
+        display: none;
+    }
+}
+@media(max-width: 700px){
+    h1{
+        font-size: 50px;
+        color: yellow;
+        display: block; */
+    /* } */
+ .menu {
+     text-decoration: none;
+
+ }
+ .showmenu{
+     display: none;
+ }
+ @media(max-width: 1000px){
+     .menu {
+         display: none;
+     }
+     .showmenu{
+         display: block;
+     }
+ }
+ .mary{
+     display: block;
+ }
+
+
+</style>
+</head>
+<body>
+   <div class="container">
+       <section id="section-one">
+           <div id="top-menu">
+               <div id="logo">
+                   <h1>MY Logo</h1>
+                   <!-- <h2>Emmanuel <span id="mic"></span> Michael </h2> -->
+
+               </div>
+               <div class="menu">
+                   <a href="">HOME</a>
+                   <a href="">ABOUT</a>
+                   <a href="">CONTACT</a>
+                   <a href="">SOLUTION</a>
+                   <a href="">FAQ</a>
+
+               </div>
+               <button class="showmenu">MENU</button>
+               <div id="social">
+
+               </div>
+           </div>
+
+       </section>
+   </div> 
+</body>
+<script>
+    let myBtn = document.querySelector('.showmenu')
+    let myMenu = document.querySelector('.menu');
+    myBtn.addEventListener('click', showmen);
+    function showmen(){
+        myMenu.classlist.toggle("Mary")
+    }
+</script>
+</html>
